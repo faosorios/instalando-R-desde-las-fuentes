@@ -2,7 +2,7 @@
 
 Esta guia permite hacer la instalacion de R para el desarrollo de paquetes. Asumiremos que disponemos de un sistema Linux basado en Debian (como Ubuntu y sus derivados). Un enfoque alternativo es instalar `r-base-dev` usando, por ejemplo, el [Gestor de paquetes Synaptic](https://github.com/mvo5/synaptic).
 
-## Instalando los requerimientos
+## Instalando requerimientos
 
 Instalaremos las herramientas necesarias para compilar R desde las fuentes usando `apt`. En la terminal, ingresar: 
 ```bash
@@ -14,3 +14,13 @@ Es recomendable instalar las bibliotecas para desarrollo asociadas a Xorg, asi c
 sudo apt install xorg-dev libtiff-dev libcairo2-dev default-jre openjdk-21-jdk openjdk-21-jre
 sudo apt install t1-xfree-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
 ```
+
+Si se desea usar TCL-TK con R, instalar las siguientes bibliotecas:
+```bash
+sudo apt install tcl-dev tk-dev libtcl-dev
+```
+
+## Descargando e instalando R
+
+
+
