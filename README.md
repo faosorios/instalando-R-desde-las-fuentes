@@ -30,6 +30,6 @@ sudo ./configure --enable-R-shlib --with-tcltk
 sudo make
 sudo make install
 ```
-
+una vez que este proceso termina (el cual puede demorar bastante), en la propia terminal usar el comando `R`.
 
 
