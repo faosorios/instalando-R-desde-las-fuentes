@@ -12,7 +12,7 @@ sudo apt install binutils binutils-common binutils-x86-64-linux-gnu build-essent
 Es recomendable instalar las bibliotecas para desarrollo asociadas a Xorg, asi como el entorno de ejecucion de Java (JRE) y algunas fuentes
 ```bash
 sudo apt install xorg-dev libtiff-dev libcairo2-dev default-jre openjdk-21-jdk openjdk-21-jre
-sudo apt install t1-xfree-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
+sudo apt install t1-xfree86-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
 ```
 
 Si se desea usar [Tcl-Tk](https://www.tcl-lang.org/) con R, instalar las siguientes bibliotecas:
