@@ -17,7 +17,7 @@ sudo apt install t1-xfree86-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syri
 
 Si se desea usar [Tcl-Tk](https://www.tcl-lang.org/) con R, instalar las siguientes bibliotecas:
 ```bash
-sudo apt install tcl-dev tk-dev libtcl-dev
+sudo apt install tcl-dev tk-dev
 ```
 
 ## Descargando e instalando R
