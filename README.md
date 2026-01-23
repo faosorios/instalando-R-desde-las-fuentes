@@ -22,7 +22,7 @@ sudo apt install tcl-dev tk-dev libtcl-dev
 
 ## Descargando e instalando R
 
-Las [fuentes](https://cran.r-project.org/sources.html) oficiales de R pueden ser encontradas en [CRAN](https://cran.r-project.org/). Si se desea desarrollar paquetes para R es recomendable descargar las versiones de *desarrollo*. Una vez que se ha descargado, por ejemplo, el fichero `R-devel.tar.gz`. En la terminal ir al directorio donde se encuentra el archivo (para fines de este ejemplo, asumiremos que este archivo se encuentra en el directorio `Descargas`), e ingresar los siguientes comandos:
+Las [fuentes](https://cran.r-project.org/sources.html) oficiales de R pueden ser encontradas en [CRAN](https://cran.r-project.org/). Si se desea desarrollar paquetes para R es recomendable descargar la version de *desarrollo*. Una vez que se ha descargado, por ejemplo, el fichero `R-devel.tar.gz`. En la terminal ir al directorio donde se encuentra el archivo (para fines de este ejemplo, asumiremos que este archivo se encuentra en el directorio `Descargas`), e ingresar los siguientes comandos:
 ```bash
 sudo tar xvfz R-devel.tar.gz
 sudo cd R-devel
