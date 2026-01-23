@@ -15,12 +15,21 @@ sudo apt install xorg-dev libtiff-dev libcairo2-dev default-jre openjdk-21-jdk o
 sudo apt install t1-xfree-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
 ```
 
-Si se desea usar TCL-TK con R, instalar las siguientes bibliotecas:
+Si se desea usar [Tcl-Tk](https://www.tcl-lang.org/) con R, instalar las siguientes bibliotecas:
 ```bash
 sudo apt install tcl-dev tk-dev libtcl-dev
 ```
 
 ## Descargando e instalando R
+
+Las [fuentes](https://cran.r-project.org/sources.html) oficiales de R pueden ser encontradas en [CRAN](https://cran.r-project.org/). Si se desea desarrollar paquetes para R es recomendable descargar las versiones de *desarrollo*. Una vez que se ha descargado, por ejemplo, el fichero `R-devel.tar.gz`. En la terminal ir al directorio donde se encuentra el archivo (para fines de este ejemplo, asumiremos que este archivo se encuentra en el directorio `Descargas`)
+```bash
+sudo tar xvfz R-devel.tar.gz
+sudo cd R-devel
+sudo ./configure --enable-R-shlib --with-tcltk
+sudo make
+sudo make install
+```
 
 
 
