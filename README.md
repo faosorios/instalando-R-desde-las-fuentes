@@ -31,4 +31,5 @@ sudo make
 sudo make install
 ```
 una vez que este proceso termina (el cual puede demorar bastante), en la propia terminal usar el comando `R`. Usted deberia ver algo como lo siguiente:
+
 ![R terminal](/images/R-term.jpg)
